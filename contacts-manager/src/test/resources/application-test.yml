@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: contacts-manager
+
+hubspot:
+  client-id: id-test
+  client-secret: secret-test
+  redirect-uri: http://localhost:8080/auth/callback
+  scopes: scope-test

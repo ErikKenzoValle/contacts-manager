@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: contacts-manager
+
+hubspot:
+  client-id: 4fdef814-19f6-4679-94f6-0a22af00004f
+  client-secret: 4afc3102-a610-4076-8ebe-1eafbcaa5888
+  redirect-uri: http://localhost:8080/auth/callback
+  scopes: crm.objects.contacts.read crm.objects.contacts.write oauth
